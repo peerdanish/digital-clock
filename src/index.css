@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "digital-clock";
+  src: url("./assets/fonts/digital-7.ttf");
+}
+
+* {
+  font-family: "digital-clock";
+}
+
+/* @keyframes slideUp {
+	0% {
+	  transform: translateY(100%);
+	  opacity: 0;
+	}
+	100% {
+	  transform: translateY(0);
+	  opacity: 1;
+	}
+  }
+  
+  .animate-slideUp {
+	animation: slideUp 0.5s ease-in-out;
+  } */
+  
